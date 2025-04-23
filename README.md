@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date : 11/04/2025
+## Date : 23/04/2025
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,17 +24,16 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-```
-<html>
+```<html>
     <body>
-        <center><img src="/static/logo.png" height="100px" width="650px"></center>
-        <h3 align="center"> SLOT TIME-TABLE : VENKATESAN R (212224230299)</h3>
+        <center><img src="C:\Users\admin\slot_timetable\AJITH A\ajith\logo.png" height="100px" width="650px"></center>
+        <h3 align="center"> SLOT TIME-TABLE : AJITH A (212224230012)</h3>
         <table border="1px" align="center" bgcolor="skyblue">
             <tr bgcolor="yellow"><th>DAY/TIME</th><th>MONDAY</th><th>TUESDAY</th><th>WEDNESDAY</th><th>THURSDAY</th><th>FRIDAY</th><th>SATURDAY</th></tr>
-            <tr><td align="center" bgcolor="yellow">8-10</td><td align="center">OS</td><td align="center">-</td><td align="center">-</td><td align="center">OS</td><td align="center">-</td><td align="center">-</td></tr>
-            <tr><td align="center" bgcolor="yellow">10-12</td><td align="center">DS</td><td align="center">SE</td><td align="center">WEB</td><td align="center">SE</td><td align="center">-</td><td align="center">DS</td></tr>
+            <tr><td align="center" bgcolor="yellow">8-10</td><td align="center">DE</td><td align="center">-</td><td align="center">-</td><td align="center">DE</td><td align="center">-</td><td align="center">-</td></tr>
+            <tr><td align="center" bgcolor="yellow">10-12</td><td align="center">ML</td><td align="center">SE</td><td align="center">WEB</td><td align="center">SE</td><td align="center">-</td><td align="center">ML</td></tr>
             <tr><td align="center" bgcolor="yellow">12-1</td><td align="center" colspan="6">LUNCH BREAK</td>
-            <tr><td align="center" bgcolor="yellow">1-3</td><td align="center">PHY</td><td align="center">QA1</td><td align="center">MENTOR</td><td align="center">PP</td><td align="center">PP</td><td align="center">-</td></tr>
+            <tr><td align="center" bgcolor="yellow">1-3</td><td align="center">CHE</td><td align="center">PHY</td><td align="center">MENTOR</td><td align="center">C</td><td align="center">C</td><td align="center">-</td></tr>
             <tr><td align="center" bgcolor="yellow">3-5</td><td align="center">-</td><td align="center">-</td><td align="center">PHY</td><td align="center">-</td><td align="center">WEB</td><td align="center">-</td></tr>
        </table>
        <br>
@@ -42,13 +41,13 @@ Execute the program using runserver command.
        <br>
        <table border="1px" align="center">
         <tr><th>S.No</th><th>SUB CODE</th><th>SUBJECT NAME</th></tr>
-        <tr><td align="center">01.</td><td align="center">19AI301</td><td align="center">PYTHON PROGRAMMING (PP)</td></tr>
-        <tr><td align="center">02.</td><td align="center">19AI403</td><td align="center">INTRODUCTION TO DATA SCIENCE (DS)</td></tr>
+        <tr><td align="center">01.</td><td align="center">19AI401</td><td align="center">FUNDAMENTAL OF C PROGRAMMING (C)</td></tr>
+        <tr><td align="center">02.</td><td align="center">19AI410</td><td align="center">INTRODUCTION TO MACHINE LEARNING (ML)</td></tr>
         <tr><td align="center">03.</td><td align="center">19AI414</td><td align="center"> FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT (WEB) </td></tr>
-        <tr><td align="center">04.</td><td align="center">19PH814</td><td align="center">PHUSICS FOR QUANTUM COMPUTING (PHY)</td></tr>
+        <tr><td align="center">04.</td><td align="center">19CY205</td><td align="center">PRINCIPLE OF CHEMISTRY IN ENGINEERING (CHE)</td></tr>
         <tr><td align="center">05.</td><td align="center">19CS408</td><td align="center">SOFTWARE ENGINEERING (SE)</td></tr>
-        <tr><td align="center">06.</td><td align="center">19CS405</td><td align="center">OPERATING SYSTEM (OS)</td></tr>
-        <tr><td align="center">07.</td><td align="center">19EY710</td><td align="center">QUANTITATIVE ABILITY 1 (QA1)</td></tr>
+        <tr><td align="center">06.</td><td align="center">19EE404</td><td align="center">DIGITAL ELECTRONICS (DE)</td></tr>
+        <tr><td align="center">07.</td><td align="center">19PH814</td><td align="center">PHYSICS FOR QUANTUM COMPUTING (PHY)</td></tr>
 
         </table>
     </body>
@@ -56,7 +55,7 @@ Execute the program using runserver command.
 ```
 
 ## OUTPUT
-![alt text](output.png)
+![Screenshot (249)](https://github.com/user-attachments/assets/69434859-628a-40ac-a35f-afc6152dfaff)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
